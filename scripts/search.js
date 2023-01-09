@@ -8,7 +8,7 @@ document.getElementById("form2").onkeypress = function (e) {
     }
 }
 
-document.getElementById("form2").onclick = function (e) {
+document.getElementById("submit_form").onclick = function (e) {
     var query = document.getElementById('search').value;
     window.find(query);
     return true;

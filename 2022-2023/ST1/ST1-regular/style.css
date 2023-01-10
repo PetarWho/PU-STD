@@ -3,7 +3,7 @@
 }
 
 .box {
-    width: 50%;
+    width: 53%;
     height: auto;
     margin: auto;
     margin-top: 2em;
@@ -156,5 +156,8 @@ hr {
     #submit_form{
         height: max-content;
         font-size: 1.4em;
+    }
+    .box{
+        width:70%;
     }
 }

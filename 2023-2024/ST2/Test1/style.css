@@ -1,5 +1,5 @@
 .box {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: auto;
     margin-top: 2em;
@@ -88,4 +88,15 @@ span{
     height: auto;
     margin-bottom: 0;
     margin-top:2em;
+}
+
+.heading2{
+    color:violet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    width:50%;
+    margin:auto;
+    height: auto;
+    margin-bottom: 0;
 }

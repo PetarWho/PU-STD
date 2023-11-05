@@ -130,3 +130,15 @@ span{
     display: flex;
     flex-direction: column;
 }
+
+.pic{
+    width: 60vw;
+    max-width: 600px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}

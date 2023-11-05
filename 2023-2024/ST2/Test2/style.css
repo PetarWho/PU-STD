@@ -101,16 +101,32 @@ span{
     margin-bottom: 0;
 }
 
-.go-to-btn{
+.go-to-btn, .go-to-test-btn{
     text-decoration: none;
     color:rgb(255, 255, 255);
-    border:2px solid rgb(29, 156, 27);
     padding:5px;
     border-radius: 10px;
-    background-color: #149b4a;
     font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.go-to-test-btn{
+    background-color: chocolate;
+    border:2px solid rgb(218, 117, 45);
+    margin-bottom: 40px;
+}
+
+.go-to-btn{
+    background-color: #149b4a;
+    border:2px solid rgb(29, 156, 27);
+}
+
+.test-navigation{
     position: fixed;
     right:1vw;
     top:15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
